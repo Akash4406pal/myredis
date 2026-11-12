@@ -1,5 +1,42 @@
+# Build directories and CMake files
 build/
 bin/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Compiled objects, binaries, and libraries
 *.o
 *.obj
 *.exe
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.out
+*.app
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Competitive Programming Helper & root scratch files
+.cph/
+.cph/*
+*.prob
+/*.cpp
+
+# OS generated files
+.DS_Store
+Thumbs.db
